@@ -17,17 +17,17 @@ export class AuthInterceptorService {
     next: HttpHandler
   ): Observable<HttpEvent<any>> {
     // debugger
-    let userData = sessionStorage['getDataFromSessionStorage']("gutBuddyAdmin");
-    var access_token;
+    let userData = this.sessionStorage['getDataFromSessionStorage']("gutBuddyAdmin");
+    var token;
     if (userData && userData != "undefined") {
       // console.log(userData);
 
       if (typeof userData == 'string') {
-        access_token = JSON.parse(userData).access_token;
+        token = JSON.parse(userData).token;
       }
     }
     else {
-      access_token = "";
+      token = "";
     }
 
     let url = "";
@@ -35,7 +35,7 @@ export class AuthInterceptorService {
     url = req.url;
 
     const copiedReq = req.clone({
-      headers: req.headers.append("access_token", access_token),
+      headers: req.headers.append("token", token),
       url: url,
     });
     return next.handle(copiedReq).pipe(
@@ -45,7 +45,7 @@ export class AuthInterceptorService {
           sessionStorage.removeItem("gutBuddyAdmin");
         }
 
-        // if (error.error && (error.error.message == "Invalid access_token." || error.error.message == "Access token missing")) {
+        // if (error.error && (error.error.message == "Invalid token." || error.error.message == "Access token missing")) {
         //   sessionStorage.removeItem("gutBuddyAdmin");
         //   this.router.navigate(["/login"]);
         // }

@@ -12,15 +12,15 @@ export class ApiService {
 
   post(url: any, data: any) {
     // console.log(url);
-    return this.http.post(`${this.baseUrl}/user/${url}`, data);
+    return this.http.post(`${this.baseUrl}/admin/${url}`, data);
   }
 
   get(url: any) {
     // console.log(url);
-    return this.http.get(`${this.baseUrl}/user/${url}`);
+    return this.http.get(`${this.baseUrl}/admin/${url}`);
   }
 
   delete(url: any) {
-    return this.http.delete(`${this.baseUrl}/user/${url}`);
+    return this.http.delete(`${this.baseUrl}/admin/${url}`);
   }
 }
