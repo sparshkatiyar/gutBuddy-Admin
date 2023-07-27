@@ -1,0 +1,265 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Lexend, Black";
+  src: url("./assets/fonts/Lexend-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lexend, Bold";
+    src: url("./assets/fonts/Lexend-Bold.ttf") format("truetype");
+    
+  }
+
+  @font-face {
+    font-family: "Lexend, Extra-bold";
+    src: url("./assets/fonts/Lexend-ExtraBold.ttf") format("truetype");
+    
+  }
+
+  @font-face {
+    font-family: "Lexend, Extra-Light";
+    src: url("./assets/fonts/Lexend-ExtraLight.ttf") format("truetype");
+    
+  }
+
+  @font-face {
+    font-family: "Lexend, Light";
+    src: url("./assets/fonts/Lexend-Light.ttf") format("truetype");
+    
+  }
+
+  @font-face {
+    font-family: "Lexend, Medium";
+    src: url("./assets/fonts/Lexend-Medium.ttf") format("truetype");
+    
+  }
+
+  @font-face {
+    font-family: "Lexend, Regular";
+    src: url("./assets/fonts/Lexend-Regular.ttf") format("truetype");
+    
+  }
+
+  @font-face {
+    font-family: "Lexend, Semi-Bold";
+    src: url("./assets/fonts/Lexend-SemiBold.ttf") format("truetype");
+    
+  }
+
+  @font-face {
+    font-family: "Lexend, Thin";
+    src: url("./assets/fonts/Lexend-Thin.ttf") format("truetype");
+    
+  }
+  
+  
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Lexend, Regular";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend, Regular";
+}
+
+.fa {
+  cursor: pointer;
+}
+
+.mat-toolbar-row {
+  justify-content: end !important;
+}
+
+.mat-typography h1,
+.mat-typography h2,
+.mat-typography h3,
+.mat-typography h4,
+.mat-typography h5,
+.mat-typography h6 {
+  font-family: "Lexend, Regular";
+  margin-bottom: 0;
+}
+
+body {
+  font-family: "Lexend, Regular" !important;
+}
+
+/********************* authentication-modules-component-custom-css start *************************/
+
+.mat-form-field-wrapper {
+  padding-bottom: 2px;
+}
+
+#authentication {
+  width: 100%;
+  height: 100vh;
+  background-color: #fbf5ff;
+}
+
+.logo img {
+  width: 90%;
+}
+
+.logo {
+  text-align: center;
+}
+
+#authentication mat-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  padding: 62px 25px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.main-form mat-label {
+  display: block;
+  font-size: 14px;
+  font-family: "Lexend, Regular";
+  color: #313131;
+  margin-bottom: 8px;
+}
+
+.main-form .mat-form-field-appearance-outline .mat-form-field-outline {
+  top: 0 !important;
+}
+
+.main-form .mat-form-field-infix {
+  border-top: 0px;
+}
+
+.main-form .mat-form-field-appearance-outline .mat-form-field-infix {
+  padding: 10px 0 10px 0;
+}
+
+.main-form .mat-form-field-label-wrapper {
+  padding-top: 0.84375em;
+}
+
+.main-form input.mat-input-element {
+  font-size: 16px;
+  font-family: "Lexend, Regular";
+  color: #acb5c2;
+}
+
+.main-form .mat-form-field-flex {
+  background: #f6f8fb;
+  border: 0.5px solid #eef2f8;
+  border-radius: 10px;
+  align-items: center !important;
+}
+
+.main-form .mat-form-field-outline-thick {
+  opacity: 0 !important;
+}
+
+.main-form .mat-form-field-appearance-outline .mat-form-field-outline {
+  opacity: 0;
+}
+
+.main-form .mat-form-field-appearance-outline .mat-form-field-flex:hover {
+  outline: none !important;
+}
+
+.main-form
+  .mat-form-field:not(.mat-form-field-appearance-legacy)
+  .mat-form-field-suffix
+  .mat-icon-button {
+  height: 0px !important;
+}
+
+.main-form .mat-form-field-appearance-outline .mat-form-field-suffix {
+  top: 6px !important;
+}
+
+.mat-checkbox-frame {
+  border-color: #3296ff;
+}
+
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+.mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: transparent !important;
+}
+
+.mat-checkbox-mixedmark {
+  background-color: #3296ff !important;
+}
+
+.mat-checkbox-checkmark-path {
+  stroke: #3296ff !important;
+}
+
+.mat-checkbox-layout .mat-checkbox-label {
+  font-size: 12px;
+  font-family: "Lexend, Regular";
+}
+
+.forgot {
+  font-size: 12px;
+  text-decoration: none;
+  color: #959595;
+}
+
+.form-button {
+  margin-top: 20px;
+}
+
+.form-button button {
+  display: block;
+  width: 100%;
+}
+
+.form-heading h3 {
+  color: #0e0e0e;
+  font-size: 22px;
+  font-family: "Lexend, Regular";
+  margin-bottom: 0px;
+}
+
+.form-heading p {
+  font-size: 12px;
+  color: #b6b6b6;
+}
+
+.mat-drawer-inner-container {
+  overflow: hidden !important;
+}
+
+/********************* authentication-modules-component-custom-css end ***************************/
+
+.mat-flat-button.mat-primary{
+  background-color: #102e50;
+}
+
+
+.mat-sidenav{
+  width: 264px!important;
+ }
+
+ .mat-drawer-container{
+  height: 100vh;
+ }
+
+
+/* .mat-list-base .mat-list-item .mat-list-item-content{
+  color: #dbd9e1;
+} */
+
+
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+  background-color: #26640485;
+}
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: #256404;
+}
