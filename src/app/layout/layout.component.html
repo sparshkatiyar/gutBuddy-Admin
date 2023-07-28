@@ -3,7 +3,7 @@
         <mat-toolbar>
             <div class="logo">
                 <!-- <img src="assets/images/header-logo.png" alt="Company Logo"> -->
-                <h1 class="logo_text">Get Buddy</h1>
+                <h1 class="logo_text">Gut Buddy</h1>
             </div>
         </mat-toolbar>
       
@@ -32,9 +32,9 @@
                     </button>
 
 
-                    <button mat-menu-item routerLink="/login">
+                    <button mat-menu-item >
                       <mat-icon>exit_to_app</mat-icon>
-                      <span>Logout</span>
+                      <span (click) = "logout()">Logout</span>
                     </button>
 
 

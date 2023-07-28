@@ -13,6 +13,7 @@ import { ToastrService } from 'ngx-toastr';
 export class LoginComponent implements OnInit {
   hide=true;
   submitted: Boolean = false;
+  loginData: any;
 
   constructor(
     private api : ApiService,
@@ -45,10 +46,11 @@ export class LoginComponent implements OnInit {
       {
         next :(res : any) => {
           console.log(res);
+          this.loginData =  res.data          
           this.toastr.success("Login Successfully")
+          this.sessionStorage.setDataInSessionStorage('GutBuddyAdmin', JSON.stringify(this.loginData))
           let routerLink = "home/dashboard"
           this.router.navigate(['home/dashboard']);
-          this.sessionStorage.setDataInSessionStorage('GutBuddyAdmin', res['data'])
         },error(err) {
           console.log(err);
         }

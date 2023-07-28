@@ -17,4 +17,7 @@ export class SessionStorageService {
     return data;
   }
 
+  removeItem(key : any){
+    sessionStorage.removeItem(key)
+  }
 }
