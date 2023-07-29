@@ -1,58 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-@font-face {
-  font-family: "Lexend, Black";
-  src: url("./assets/fonts/Lexend-Black.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Lexend, Bold";
-    src: url("./assets/fonts/Lexend-Bold.ttf") format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "Lexend, Extra-bold";
-    src: url("./assets/fonts/Lexend-ExtraBold.ttf") format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "Lexend, Extra-Light";
-    src: url("./assets/fonts/Lexend-ExtraLight.ttf") format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "Lexend, Light";
-    src: url("./assets/fonts/Lexend-Light.ttf") format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "Lexend, Medium";
-    src: url("./assets/fonts/Lexend-Medium.ttf") format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "Lexend, Regular";
-    src: url("./assets/fonts/Lexend-Regular.ttf") format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "Lexend, Semi-Bold";
-    src: url("./assets/fonts/Lexend-SemiBold.ttf") format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "Lexend, Thin";
-    src: url("./assets/fonts/Lexend-Thin.ttf") format("truetype");
-    
-  }
-  
   
 
 html,
