@@ -46,7 +46,7 @@ export class ForgotPasswordComponent implements OnInit {
     }
     this.submitted = true;
     let data = this.forgetPassForm.value;
-    this.api.post('login', data).subscribe(
+    this.api.post('forgot-password', data).subscribe(
       {
         next :(res : any) => {
           console.log(res);
