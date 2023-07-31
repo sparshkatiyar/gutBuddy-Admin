@@ -49,7 +49,9 @@ body {
 #authentication {
   width: 100%;
   height: 100vh;
-  background-color: #fbf5ff;
+  /* background-color: #fbf5ff; */
+  background: linear-gradient(168.64deg, #E6F4FF -10.58%, #FFFFFF 97.22%);
+
 }
 
 .logo img {
@@ -184,7 +186,7 @@ body {
 /********************* authentication-modules-component-custom-css end ***************************/
 
 .mat-flat-button.mat-primary{
-  background-color: #102e50;
+  background-color: #063F5C;
 }
 
 

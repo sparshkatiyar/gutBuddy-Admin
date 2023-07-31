@@ -43,18 +43,18 @@
 
 .mat-list-item:hover {
   background-color: #dbdae1;
-  color: #102e50!important;
+  color: #063F5C!important;
   
 }
 
 .active {
-  color: #102e50;
+  color: #063F5C;
   background-color: #dbdae1!important;
 }
 
 .mat-nav-list {
   overflow-y: auto;
-  background: #102e50;
+  background: #063F5C;
 }
 
 
